@@ -1,0 +1,18 @@
+{
+  "pkg": "@maracatu/estandarte",
+  "globalName": "Estandarte",
+  "shape": "package",
+  "projectId": "0a9a2c2f-016e-4a47-b8fb-598178aa352b",
+  "entry": "./dist/index.js",
+  "cssEntry": ".design-sync/assets/estandarte.css",
+  "provider": { "component": "ThemeProvider" },
+  "readmeHeader": ".design-sync/conventions.md",
+  "extraEntries": ["motion/react"],
+  "overrides": {
+    "ChartRenderer": { "cardMode": "column" },
+    "Toast": { "cardMode": "single", "primaryStory": "Success" }
+  },
+  "componentSrcMap": {
+    "ThemeProvider": null
+  }
+}
