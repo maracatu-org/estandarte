@@ -3,6 +3,10 @@ dist/
 *.tsbuildinfo
 .DS_Store
 
+# secrets / local auth
+.env
+.npmrc
+
 # design-sync
 /.ds-sync/
 /ds-bundle/
