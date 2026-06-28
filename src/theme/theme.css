@@ -9,6 +9,7 @@
  *   - theme-aware surface/text/border tokens that flip with the `.dark` class
  *     (ThemeProvider toggles it), exposed as Tailwind utilities:
  *       bg-canvas / bg-elevated / bg-sidebar / bg-subtle
+ *       bg-popover / bg-inset
  *       text-primary / text-secondary / text-muted
  *       border-default
  *   - brand accent + the chart palette (chart-1..chart-6)
@@ -27,6 +28,8 @@
   --es-elevated: #f4f4f4;
   --es-sidebar: #f9f9f9;
   --es-subtle: #f9f9f9;
+  --es-popover: #ffffff; /* raised surfaces: modals, menus, popovers */
+  --es-inset: #f4f4f4; /* recessed surfaces: inputs inside a popover */
 
   --es-text-primary: #18181b; /* zinc-900 */
   --es-text-secondary: #71717a; /* zinc-500 */
@@ -40,6 +43,8 @@
   --es-elevated: #2f2f2f;
   --es-sidebar: #171717;
   --es-subtle: #171717;
+  --es-popover: #2f2f2f; /* lifts off the dark canvas */
+  --es-inset: #212121; /* recedes below a dark popover */
 
   --es-text-primary: #f4f4f4; /* zinc-100 */
   --es-text-secondary: #a1a1aa; /* zinc-400 */
@@ -54,6 +59,8 @@
   --color-elevated: var(--es-elevated);
   --color-sidebar: var(--es-sidebar);
   --color-subtle: var(--es-subtle);
+  --color-popover: var(--es-popover);
+  --color-inset: var(--es-inset);
 
   --color-primary: var(--es-text-primary);
   --color-secondary: var(--es-text-secondary);
