@@ -13,3 +13,6 @@ dist/
 /.design-sync/.cache/
 /.design-sync/node_modules
 /.design-sync/assets/estandarte.css
+
+# claude code (local, gitignored)
+.claude/
